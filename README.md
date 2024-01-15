@@ -2,6 +2,34 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Software Dependencies
+
+Install the following software on your system.
+
+- [Nodejs](https://nodejs.org/en/) version 16.14.0 and higher
+- [ReduxDevtools](https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) extension for the Google Chrome browser
+
+## Install Dependencies
+From the terminal execute the following commands:
+
+```bash
+npm install        # NPM install all packages
+```
+
+## The project description
+The main idea is to create API middleware using <strong>Redux, Axios, @reduxjs/toolkit</strong> to handle all API calls in one place
+
+To see the code implementation of the API:
+```bash
+rootFolder/src/store/api
+```
+
+To see the result of the middleware:
+- open Redux Devtool extension on the Google Chrome browser
+- see dispatched actions in the Actions tab
+
+Also, it supports custom events handlers such as API calls onStart/onSuccess/onError/onFinally
+
 ## Available Scripts
 
 In the project directory, you can run:
